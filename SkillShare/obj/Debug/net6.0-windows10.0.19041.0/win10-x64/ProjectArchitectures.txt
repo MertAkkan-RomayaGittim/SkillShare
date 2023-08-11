@@ -1,0 +1,1 @@
+C:\Users\MERT\source\repos\SkillShare\SkillShare\SkillShare.csproj;x64

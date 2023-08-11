@@ -1,0 +1,89 @@
+is_global = true
+build_property.TargetFramework = net6.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = SkillSharingAppMobile
+build_property.ProjectDir = C:\Users\MERT\source\repos\SkillShare\SkillShare\
+
+[C:/Users/MERT/source/repos/SkillShare/SkillShare/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SkillSharingAppMobile.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/MERT/source/repos/SkillShare/SkillShare/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SkillSharingAppMobile.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/MERT/source/repos/SkillShare/SkillShare/CreateEventPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SkillSharingAppMobile.CreateEventPage.xaml
+build_metadata.AdditionalFiles.TargetPath = CreateEventPage.xaml
+build_metadata.AdditionalFiles.RelativePath = CreateEventPage.xaml
+
+[C:/Users/MERT/source/repos/SkillShare/SkillShare/EditProfile.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SkillSharingAppMobile.EditProfile.xaml
+build_metadata.AdditionalFiles.TargetPath = EditProfile.xaml
+build_metadata.AdditionalFiles.RelativePath = EditProfile.xaml
+
+[C:/Users/MERT/source/repos/SkillShare/SkillShare/HomePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SkillSharingAppMobile.HomePage.xaml
+build_metadata.AdditionalFiles.TargetPath = HomePage.xaml
+build_metadata.AdditionalFiles.RelativePath = HomePage.xaml
+
+[C:/Users/MERT/source/repos/SkillShare/SkillShare/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SkillSharingAppMobile.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/MERT/source/repos/SkillShare/SkillShare/MessagePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SkillSharingAppMobile.MessagePage.xaml
+build_metadata.AdditionalFiles.TargetPath = MessagePage.xaml
+build_metadata.AdditionalFiles.RelativePath = MessagePage.xaml
+
+[C:/Users/MERT/source/repos/SkillShare/SkillShare/MyAppointmentsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SkillSharingAppMobile.MyAppointmentsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MyAppointmentsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MyAppointmentsPage.xaml
+
+[C:/Users/MERT/source/repos/SkillShare/SkillShare/NewUserVerification.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SkillSharingAppMobile.NewUserVerification.xaml
+build_metadata.AdditionalFiles.TargetPath = NewUserVerification.xaml
+build_metadata.AdditionalFiles.RelativePath = NewUserVerification.xaml
+
+[C:/Users/MERT/source/repos/SkillShare/SkillShare/ProfilePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SkillSharingAppMobile.ProfilePage.xaml
+build_metadata.AdditionalFiles.TargetPath = ProfilePage.xaml
+build_metadata.AdditionalFiles.RelativePath = ProfilePage.xaml
+
+[C:/Users/MERT/source/repos/SkillShare/SkillShare/RegistrationPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SkillSharingAppMobile.RegistrationPage.xaml
+build_metadata.AdditionalFiles.TargetPath = RegistrationPage.xaml
+build_metadata.AdditionalFiles.RelativePath = RegistrationPage.xaml
+
+[C:/Users/MERT/source/repos/SkillShare/SkillShare/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SkillSharingAppMobile.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/MERT/source/repos/SkillShare/SkillShare/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SkillSharingAppMobile.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

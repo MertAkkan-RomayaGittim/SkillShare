@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SkillSharingAppMobile.NewUserVerification"
+             Title="Verification">
+    
+    
+    <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+        <Entry Placeholder="Enter 4-digit code" x:Name="CodeEntry" MaxLength="4" />
+        <Button Text="Submit" Clicked="OnSubmitButtonClicked" />
+    </StackLayout>
+</ContentPage>

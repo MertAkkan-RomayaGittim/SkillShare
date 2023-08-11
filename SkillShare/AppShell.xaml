@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Shell
+    x:Class="SkillSharingAppMobile.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:SkillSharingAppMobile"
+    Shell.FlyoutBehavior="Flyout" FlyoutWidth="200"
+    Appearing="AppShell_OnAppearing"
+    >
+
+    <TabBar x:Name="TabBar">
+        <Tab Title="Home" Icon="home_icon.png">
+            <ShellContent ContentTemplate="{DataTemplate local:HomePage}" Route="HomePage"/>
+        </Tab>
+        <Tab Title="Search" Icon="search_icon.png">
+            <ShellContent ContentTemplate="{DataTemplate local:RegistrationPage}" Route=""/>
+        </Tab>
+        <Tab Title="Create" Icon="plus_icon.png">
+            <ShellContent ContentTemplate="{DataTemplate local:RegistrationPage}" Route=""/>
+        </Tab>
+        <Tab Title="Messages" Icon="myletter_icon.png">
+            <ShellContent ContentTemplate="{DataTemplate local:MessagePage}" Route="Shell.MessagePage"/>
+        </Tab>
+    </TabBar>
+
+    <Shell.FlyoutHeaderTemplate>
+        <DataTemplate>
+            <Grid BackgroundColor="Black"
+                  HeightRequest="200">
+                <Image Aspect="Fill"
+                       Source="purpbg.png"
+                       Opacity="0.6" />
+                <Label Text="SkillSharingApp"
+                       TextColor="White"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       VerticalTextAlignment="Center" />
+   
+            </Grid>
+        </DataTemplate>
+    </Shell.FlyoutHeaderTemplate>
+
+    
+ 
+
+    <Shell.FlyoutFooterTemplate>
+        <DataTemplate>
+            
+                <ImageButton  MaximumHeightRequest="50" HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand" WidthRequest="210" HeightRequest="40" Source="logout.svg" BackgroundColor="MediumPurple" Clicked="ImageButton_Clicked" />
+            
+        </DataTemplate>
+    </Shell.FlyoutFooterTemplate>
+
+
+
+
+
+    <Shell.FlyoutContent  >
+        <DataTemplate>
+            <Grid BackgroundColor="Black"
+                  HeightRequest="200">
+            <Image Aspect="Fill"
+                       Source="messageicon.png"
+                       Opacity="0.6" />
+            <Label Text="SkillSharingApp"
+                       TextColor="White"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       VerticalTextAlignment="Center" />
+
+        </Grid>
+        </DataTemplate>
+    </Shell.FlyoutContent>
+    
+    <ShellContent
+        Icon="blackpp.png"
+        Title="Login"
+        IsVisible="False"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="Profile2" />
+
+    <ShellContent
+        Icon="blackpp.png"
+        Title="Profile"
+        ContentTemplate="{DataTemplate local:ProfilePage}"
+        Route="Profile" />
+
+    <ShellContent
+        Icon="staricon.png"
+        Title="Favorites"
+        ContentTemplate="{DataTemplate local:RegistrationPage}"
+        Route="TurnMainPage" />
+
+    <ShellContent
+        Icon="calender.png"
+        Title="My Appointments"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage2" />
+
+    <ShellContent
+        Icon="settings.png"
+        Title="Settings"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+
+
+
+</Shell>

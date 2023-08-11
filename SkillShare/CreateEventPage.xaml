@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SkillSharingAppMobile.CreateEventPage" Title="Events">
+
+
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="40"
+            Padding="30,0"
+            VerticalOptions="Center"
+            >
+
+
+            <Label
+                Text="Create Event"
+                SemanticProperties.Description="Level1"
+                FontSize="32"
+                FontAttributes="Bold"
+                FontFamily="Arial"
+                HorizontalOptions="Center" 
+             />
+
+
+
+
+            <VerticalStackLayout Spacing="20" Padding="30,0">
+                <Label
+                    Text="Enter the name of the event"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="FillAndExpand"
+                />
+                <Entry
+                    Margin="0,-10,0,0"
+                    x:Name="EventNameEntry"
+                    Placeholder="Enter the name of the event"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="FillAndExpand"
+                />
+            </VerticalStackLayout>
+
+
+
+            <VerticalStackLayout
+                Spacing="20"
+                Padding="30,0"
+             >
+
+
+                <Entry
+                    Margin="0,10,0,0"
+                    x:Name="EventCategoryEntry"
+                    Placeholder="Enter or Choose the category of the event"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="FillAndExpand"
+                />
+                <Picker
+                    Margin="0,10,0,0"
+                    x:Name="ExistingEventPicker"
+                    Title="Choose an existing event category"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="FillAndExpand"
+                    SelectedIndexChanged="ExistingEventPicker_SelectedIndexChanged"
+                />
+
+
+                <BoxView BackgroundColor="#e8e8e8" HeightRequest="0.4" HorizontalOptions="FillAndExpand" />
+
+            </VerticalStackLayout>
+
+
+            <VerticalStackLayout
+                Spacing="0"
+                Padding="30,0"
+                
+            >
+
+
+                <HorizontalStackLayout>
+
+
+                    <Label               
+                        Margin="0,0,0,0"
+                        Text="Select Date and Time"
+                        HorizontalOptions="FillAndExpand"
+                        VerticalOptions="CenterAndExpand"
+                    
+                    
+                    />
+
+
+                    <Label               
+                        Margin="0,0,0,0"
+                        Text="*"
+                        TextColor="OrangeRed"
+                        HorizontalOptions="FillAndExpand"
+                        Padding="10,0,0,0"                      
+                        VerticalOptions="CenterAndExpand"                                      
+                    />
+
+
+
+
+
+
+                </HorizontalStackLayout>
+
+
+
+                <BoxView BackgroundColor="#e8e8e8" HeightRequest="0.4" HorizontalOptions="FillAndExpand" />
+
+            </VerticalStackLayout>
+
+
+
+            <HorizontalStackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="StartAndExpand">
+
+
+                <StackLayout>
+                    <Label 
+                        Text="Pick a date" 
+                        TextColor="OrangeRed" 
+                        HorizontalOptions="StartAndExpand"
+                        Margin="10,0,120,0"
+                        Padding="10,0,0,0"
+                    />
+                    <DatePicker
+                        x:Name="DatePicker"
+                        HorizontalOptions="Start"
+                        Margin="54,0,0,0"
+                    />
+                </StackLayout>
+
+                <StackLayout>
+                    <Label 
+                        Text="Pick time" 
+                        TextColor="OrangeRed" 
+                        HorizontalOptions="EndAndExpand"
+                        Margin="100,0"
+                        Padding="20,3,0,0"
+                        
+                    />
+                    <TimePicker
+                        x:Name="TimePicker"
+                        HorizontalOptions="EndAndExpand"
+                        Margin="10,0,20,0"
+                        
+                    />
+                </StackLayout>
+
+            </HorizontalStackLayout>
+
+
+
+
+
+            <Button
+                x:Name="CreateEventBtn"
+                CornerRadius="30"
+                Padding="20"   
+                Text="Confirm"
+                TextColor="Black"
+                BackgroundColor="LightGreen"
+                WidthRequest="150"
+                HeightRequest="70"
+                FontAttributes="Bold"
+                FontSize="15"
+                FontFamily="Arial"
+                Clicked="CreateEventBtn_OnClicked"
+                HorizontalOptions="Center"
+            
+            />
+
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
