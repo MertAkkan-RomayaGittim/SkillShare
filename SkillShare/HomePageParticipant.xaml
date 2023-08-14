@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SkillSharingAppMobile.HomePageParticipant"
+             Title="Home Page Participant"
+            
+             >
+    <Shell.BackButtonBehavior>
+        <BackButtonBehavior IsVisible="False"/>
+    </Shell.BackButtonBehavior>
+
+
+
+    <Shell.TitleView>
+        <HorizontalStackLayout Spacing="20" HorizontalOptions="Start" >
+            <ImageButton Source="Menu_icon.png" Clicked="ImageButtonParticipant_Clicked"/>
+            <Label Text="Home Page" FontSize="20" FontFamily="Arial" FontAttributes="Bold" TextColor="White" VerticalOptions="Center"/>
+        </HorizontalStackLayout>
+    </Shell.TitleView>
+
+
+
+
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="10" Margin="20" x:Name="frameContainer">
+            <Frame x:Name="event" Padding="2">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="150"/>
+                        <RowDefinition Height="50"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Frame Grid.Row="0" Grid.Column="0" Padding="3" >
+                        <Label Text="Event Name" HorizontalOptions="Center" VerticalOptions="Center"/>
+                    </Frame>
+                    <Frame Grid.Row="0" Grid.Column="1">
+                        <Label Text="InstrName"/>
+                    </Frame>
+                    <Frame Grid.Row="1" Grid.Column="0" >
+                        <Image Source="https://d585tldpucybw.cloudfront.net/sfimages/default-source/blogs/2020/2020-06/netmauimainimage.png?sfvrsn=a853012_2"/>
+                    </Frame>
+                    <Border Grid.Row="1" Grid.Column="1" StrokeThickness="0">
+                        <VerticalStackLayout Spacing="50" VerticalOptions="Center">
+                            <ImageButton Source="icontwo.png" VerticalOptions="Start" Clicked="EventDetailParticipantBtnClicked"/>
+                            <ImageButton x:Name="strBttn" Source="star_icon.png" VerticalOptions="Start" Clicked="StarButtonParticipant_Clicked"/>
+                        </VerticalStackLayout>
+                    </Border>
+                    <Border Grid.Row="2" Grid.ColumnSpan="2" StrokeThickness="0">
+                        <HorizontalStackLayout VerticalOptions="Center" >
+                            <Label Text="%" Margin="10,0,0,0"/>
+                            <Label x:Name="eventRatio" Text="25"/>
+                            <Label Text="Reviews"  Margin="100,0,0,0"/>
+                            <Label Text="$" FontAttributes="Bold" Margin="70,0,0,0"/>
+                            <Label Text="20" Margin="0,0,0,0"/>
+                        </HorizontalStackLayout>
+                    </Border>
+                </Grid>
+            </Frame>
+
+
+
+
+
+        </VerticalStackLayout>
+
+
+
+
+    </ScrollView>
+
+
+
+
+
+
+</ContentPage>

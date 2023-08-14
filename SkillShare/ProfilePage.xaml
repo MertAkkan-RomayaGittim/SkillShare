@@ -7,7 +7,7 @@
     <ContentPage.ToolbarItems>
         <ToolbarItem
             IconImageSource="editicon.jpg"
-            Clicked="EditButton_Clicked" 
+            Clicked="EditButtonParticipant_Clicked" 
             Order="Primary"
             Priority="0" />
     </ContentPage.ToolbarItems>
@@ -50,12 +50,12 @@
                 <Label  FontFamily="Arial" Text="Bu benim hayatım tutamadım ellerimden kaydı" FontSize="16" HorizontalOptions="Start" Margin="5,0,0,0" VerticalOptions="End" Padding="10" BackgroundColor="MediumPurple"/>
                 <Label FontFamily="Arial"  Text="On-Going Courses/Workshops" FontSize="20" HorizontalOptions="Start" Margin="5,0,0,0" VerticalOptions="End"/>
                 <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" VerticalOptions="End">
-                    <ImageButton Source="ma.jpg" WidthRequest="200" HeightRequest="150" Aspect="AspectFill" BackgroundColor="MediumPurple" />
+                    <ImageButton Source="ma.jpg" WidthRequest="200" HeightRequest="150" Aspect="AspectFill" BackgroundColor="MediumPurple" Clicked="EventImageParticipantCliked" />
                     <Label FontFamily="Arial" Text="Karate Workshop" FontSize="14" VerticalOptions="Start" Margin="40,10,0,0" />
                 </StackLayout>
-                <Button FontFamily="Arial" Text="Details" Clicked="DetailsButton_Clicked" HorizontalOptions="End" VerticalOptions="Start" Margin="0,-40,50,0" />
+                <Button FontFamily="Arial" Text="Details" Clicked="DetailsButtonParticipant_Clicked" HorizontalOptions="End" VerticalOptions="Start" Margin="0,-40,50,0" />
 
-                <Button FontFamily="Arial"  Text="Skills" FontSize="20" Clicked="SkillsButton_Clicked"  MaximumHeightRequest="50" MaximumWidthRequest="50" BackgroundColor="MediumPurple" Margin="5,0,0,0" VerticalOptions="End"/>
+                <Button FontFamily="Arial"  Text="Skills" FontSize="20" Clicked="SkillsButtonParticipant_Clicked"  MaximumHeightRequest="50" MaximumWidthRequest="50" BackgroundColor="MediumPurple" Margin="5,0,0,0" VerticalOptions="End"/>
                 <StackLayout x:Name="skillsStackLayout" IsVisible="False">
                     <Frame CornerRadius="5" BackgroundColor="LightGray" Margin="10" Padding="10">
                         <Grid>
@@ -71,9 +71,9 @@
                     </Frame>
                 </StackLayout>
                 <Label FontFamily="Arial"  Text="Courses" FontSize="20" HorizontalOptions="Start" Margin="5,0,0,0" VerticalOptions="End"/>
-                <ImageButton  Source="booksicon.png" Clicked="CoursesButton_Clicked"  MaximumHeightRequest="50" MaximumWidthRequest="50" BackgroundColor="MediumPurple" Margin="5,0,0,0" VerticalOptions="End"/>
+                <ImageButton  Source="booksicon.png" Clicked="CoursesButtonParticipant_Clicked"  MaximumHeightRequest="50" MaximumWidthRequest="50" BackgroundColor="MediumPurple" Margin="5,0,0,0" VerticalOptions="End"/>
                 <Label FontFamily="Arial"  Text="Workshops" FontSize="20" HorizontalOptions="Start" Margin="5,0,0,0" VerticalOptions="End" />
-                <ImageButton Source="wsicon.png" Clicked="WorkshopsButton_Clicked"  MaximumHeightRequest="50" MaximumWidthRequest="50" BackgroundColor="MediumPurple" Margin="5,0,0,0"  VerticalOptions="End"/>
+                <ImageButton Source="wsicon.png" Clicked="WorkshopsButtonParticipant_Clicked"  MaximumHeightRequest="50" MaximumWidthRequest="50" BackgroundColor="MediumPurple" Margin="5,0,0,0"  VerticalOptions="End"/>
             </StackLayout>
         </Grid>
             

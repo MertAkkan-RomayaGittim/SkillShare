@@ -26,7 +26,15 @@ public partial class MainPage : ContentPage
         Navigation.PushAsync(new RegistrationPage());
     }
 
-    
+
+    private async void ForgotPasswordClicked(object sender, EventArgs e)
+    {
+
+        await Navigation.PushAsync(new ForgotPasswordPage());
+    }
+
+
+
 
     private async void LoginBtnClicked(object sender, EventArgs e)
     {
@@ -55,7 +63,7 @@ public partial class MainPage : ContentPage
                     {
                         await DisplayAlert("Login Successful", "Login as Participant is successful.", "OK");
                         // Navigate to the appropriate page after successful login
-                        await Navigation.PushAsync(new HomePage());
+                        await Navigation.PushAsync(new HomePageParticipant());
                     }
 
                 }

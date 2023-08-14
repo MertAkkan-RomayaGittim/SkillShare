@@ -30,29 +30,29 @@
     <AppXManifest Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-08-11T15:02:10.201</Modified>
+      <Modified>2023-08-14T06:28:55.197</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-08-11T15:02:08.944</Modified>
+      <Modified>2023-08-13T17:21:13.504</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\SkillShare.runtimeconfig.json">
       <PackagePath>SkillShare.runtimeconfig.json</PackagePath>
-      <Modified>2023-08-11T15:02:07.702</Modified>
+      <Modified>2023-08-12T18:38:14.934</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\SkillShare.dll">
       <PackagePath>SkillShare.dll</PackagePath>
-      <Modified>2023-08-11T15:01:57.663</Modified>
+      <Modified>2023-08-13T17:30:21.706</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>SkillShare.exe</PackagePath>
-      <Modified>2023-08-11T15:01:57.732</Modified>
+      <Modified>2023-08-13T17:30:21.740</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\SkillShare.deps.json">
       <PackagePath>SkillShare.deps.json</PackagePath>
-      <Modified>2023-08-11T15:02:07.199</Modified>
+      <Modified>2023-08-12T18:38:14.738</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.20\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1092,23 +1092,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2023-08-11T15:01:05.834</Modified>
+      <Modified>2023-08-12T18:38:10.165</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2023-08-11T15:01:05.956</Modified>
+      <Modified>2023-08-12T18:38:10.188</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2023-08-11T15:01:06.020</Modified>
+      <Modified>2023-08-12T18:38:10.217</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2023-08-11T15:01:06.139</Modified>
+      <Modified>2023-08-12T18:38:10.256</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2023-08-11T15:01:06.636</Modified>
+      <Modified>2023-08-12T18:38:10.405</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
@@ -1120,187 +1120,187 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2023-08-11T15:01:06.973</Modified>
+      <Modified>2023-08-12T18:38:10.480</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2023-08-11T15:01:08.536</Modified>
+      <Modified>2023-08-12T18:38:10.803</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2023-08-11T15:01:08.578</Modified>
+      <Modified>2023-08-12T18:38:10.824</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2023-08-11T15:01:08.606</Modified>
+      <Modified>2023-08-12T18:38:10.835</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2023-08-11T15:01:08.661</Modified>
+      <Modified>2023-08-12T18:38:10.852</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2023-08-11T15:01:08.900</Modified>
+      <Modified>2023-08-12T18:38:10.942</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2023-08-11T15:01:07.566</Modified>
+      <Modified>2023-08-12T18:38:10.583</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2023-08-11T15:01:07.580</Modified>
+      <Modified>2023-08-12T18:38:10.588</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2023-08-11T15:01:07.653</Modified>
+      <Modified>2023-08-12T18:38:10.604</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2023-08-11T15:01:07.590</Modified>
+      <Modified>2023-08-12T18:38:10.592</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2023-08-11T15:01:07.621</Modified>
+      <Modified>2023-08-12T18:38:10.595</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2023-08-11T15:01:07.463</Modified>
+      <Modified>2023-08-12T18:38:10.555</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2023-08-11T15:01:07.482</Modified>
+      <Modified>2023-08-12T18:38:10.560</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2023-08-11T15:01:07.549</Modified>
+      <Modified>2023-08-12T18:38:10.579</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2023-08-11T15:01:07.495</Modified>
+      <Modified>2023-08-12T18:38:10.564</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2023-08-11T15:01:07.513</Modified>
+      <Modified>2023-08-12T18:38:10.568</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2023-08-11T15:01:07.054</Modified>
+      <Modified>2023-08-12T18:38:10.498</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2023-08-11T15:01:07.109</Modified>
+      <Modified>2023-08-12T18:38:10.505</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2023-08-11T15:01:07.138</Modified>
+      <Modified>2023-08-12T18:38:10.509</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2023-08-11T15:01:07.204</Modified>
+      <Modified>2023-08-12T18:38:10.514</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2023-08-11T15:01:07.256</Modified>
+      <Modified>2023-08-12T18:38:10.522</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2023-08-11T15:01:07.290</Modified>
+      <Modified>2023-08-12T18:38:10.526</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2023-08-11T15:01:07.321</Modified>
+      <Modified>2023-08-12T18:38:10.531</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2023-08-11T15:01:07.439</Modified>
+      <Modified>2023-08-12T18:38:10.550</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2023-08-11T15:01:07.348</Modified>
+      <Modified>2023-08-12T18:38:10.535</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2023-08-11T15:01:07.365</Modified>
+      <Modified>2023-08-12T18:38:10.539</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2023-08-11T15:01:07.890</Modified>
+      <Modified>2023-08-12T18:38:10.671</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2023-08-11T15:01:07.915</Modified>
+      <Modified>2023-08-12T18:38:10.678</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2023-08-11T15:01:07.942</Modified>
+      <Modified>2023-08-12T18:38:10.689</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2023-08-11T15:01:07.985</Modified>
+      <Modified>2023-08-12T18:38:10.700</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2023-08-11T15:01:08.107</Modified>
+      <Modified>2023-08-12T18:38:10.719</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2023-08-11T15:01:07.770</Modified>
+      <Modified>2023-08-12T18:38:10.636</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2023-08-11T15:01:07.792</Modified>
+      <Modified>2023-08-12T18:38:10.641</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2023-08-11T15:01:07.818</Modified>
+      <Modified>2023-08-12T18:38:10.647</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2023-08-11T15:01:07.844</Modified>
+      <Modified>2023-08-12T18:38:10.655</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2023-08-11T15:01:07.876</Modified>
+      <Modified>2023-08-12T18:38:10.664</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2023-08-11T15:01:07.664</Modified>
+      <Modified>2023-08-12T18:38:10.609</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2023-08-11T15:01:07.685</Modified>
+      <Modified>2023-08-12T18:38:10.613</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2023-08-11T15:01:07.698</Modified>
+      <Modified>2023-08-12T18:38:10.618</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2023-08-11T15:01:07.714</Modified>
+      <Modified>2023-08-12T18:38:10.623</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2023-08-11T15:01:07.750</Modified>
+      <Modified>2023-08-12T18:38:10.630</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2023-08-11T15:01:08.140</Modified>
+      <Modified>2023-08-12T18:38:10.727</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2023-08-11T15:01:08.188</Modified>
+      <Modified>2023-08-12T18:38:10.734</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2023-08-11T15:01:08.281</Modified>
+      <Modified>2023-08-12T18:38:10.744</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2023-08-11T15:01:08.372</Modified>
+      <Modified>2023-08-12T18:38:10.759</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2023-08-11T15:01:08.501</Modified>
+      <Modified>2023-08-12T18:38:10.793</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\applogo.scale-100.png">
       <PackagePath>applogo.scale-100.png</PackagePath>
@@ -1336,23 +1336,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2023-08-11T15:01:07.381</Modified>
+      <Modified>2023-08-12T18:38:10.456</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2023-08-11T15:01:07.439</Modified>
+      <Modified>2023-08-12T18:38:10.473</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2023-08-11T15:01:07.515</Modified>
+      <Modified>2023-08-12T18:38:10.495</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2023-08-11T15:01:07.602</Modified>
+      <Modified>2023-08-12T18:38:10.523</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2023-08-11T15:01:07.832</Modified>
+      <Modified>2023-08-12T18:38:10.585</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_image.scale-100.png">
       <PackagePath>dotnet_image.scale-100.png</PackagePath>
@@ -1392,23 +1392,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logout.scale-100.png">
       <PackagePath>logout.scale-100.png</PackagePath>
-      <Modified>2023-08-11T15:01:07.478</Modified>
+      <Modified>2023-08-12T18:38:10.489</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logout.scale-125.png">
       <PackagePath>logout.scale-125.png</PackagePath>
-      <Modified>2023-08-11T15:01:07.727</Modified>
+      <Modified>2023-08-12T18:38:10.556</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logout.scale-150.png">
       <PackagePath>logout.scale-150.png</PackagePath>
-      <Modified>2023-08-11T15:01:08.057</Modified>
+      <Modified>2023-08-12T18:38:10.642</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logout.scale-200.png">
       <PackagePath>logout.scale-200.png</PackagePath>
-      <Modified>2023-08-11T15:01:08.630</Modified>
+      <Modified>2023-08-12T18:38:10.778</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logout.scale-400.png">
       <PackagePath>logout.scale-400.png</PackagePath>
-      <Modified>2023-08-11T15:01:10.142</Modified>
+      <Modified>2023-08-12T18:38:11.515</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MERT\source\repos\SkillShare\SkillShare\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\ma.scale-100.jpg">
       <PackagePath>ma.scale-100.jpg</PackagePath>

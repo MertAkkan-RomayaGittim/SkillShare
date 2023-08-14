@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SkillSharingAppMobile.EditProfileInstructor"
+             Title="Edit Your Instructor Profile"
+             >
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="30"
+            Padding="30,0"
+            VerticalOptions="Center"
+        >
+
+            <Label
+                Text="Edit Your Profile"
+                SemanticProperties.Description="Level1"
+                FontSize="32"
+                FontAttributes="Bold"
+                FontFamily="Arial"
+                HorizontalOptions="Center" 
+             />
+
+
+            <VerticalStackLayout
+                Spacing="0"
+                Padding="30,0"
+            >
+
+
+
+                <Entry 
+                Margin="0,0,0,0"
+                x:Name="NameEntry" 
+                Placeholder="NAME"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="FillAndExpand"
+                />
+
+
+                <BoxView BackgroundColor="#e8e8e8" HeightRequest="0.4" HorizontalOptions="FillAndExpand" />
+
+            </VerticalStackLayout>
+
+
+            <VerticalStackLayout
+                Spacing="0"
+                Padding="30,0"
+            >
+
+
+                <Entry 
+                Margin="0,0,0,0"
+                x:Name="SurnameEntry" 
+                Placeholder="SURNAME" 
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="FillAndExpand"
+                />
+
+
+
+
+                <BoxView BackgroundColor="#e8e8e8" HeightRequest="0.4" HorizontalOptions="FillAndExpand" />
+
+            </VerticalStackLayout>
+
+
+            <VerticalStackLayout
+                Spacing="0"
+                Padding="30,0"
+                
+            >
+
+
+
+
+                <Entry 
+                Margin="0,0,0,0"
+                x:Name="EmailEntry" 
+                Placeholder="EMAIL"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="FillAndExpand"
+                />
+
+
+
+
+                <BoxView BackgroundColor="#e8e8e8" HeightRequest="0.4" HorizontalOptions="FillAndExpand" />
+
+            </VerticalStackLayout>
+
+            <VerticalStackLayout
+                Spacing="0"
+                Padding="30,0"
+                
+            >
+
+
+
+
+
+                <Entry 
+                Margin="0,0,0,0"
+                x:Name="PasswordEntry" 
+                Placeholder="PASSWORD" 
+                IsPassword="True"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="FillAndExpand"
+                />
+
+
+
+
+                <BoxView BackgroundColor="#e8e8e8" HeightRequest="0.4" HorizontalOptions="FillAndExpand" />
+
+            </VerticalStackLayout>
+
+            <Button 
+                x:Name ="SubmitBtn"
+                Padding="20"
+                CornerRadius="30"
+                Text="Submit"
+                FontFamily="Arial"
+                FontSize="15"   
+                FontAttributes="Bold"
+                HeightRequest="60"
+                WidthRequest="100"
+                SemanticProperties.Hint="Counts the number of times you click"
+                HorizontalOptions="CenterAndExpand" 
+                
+            />
+
+
+
+        </VerticalStackLayout>
+
+    </ScrollView>
+
+</ContentPage>

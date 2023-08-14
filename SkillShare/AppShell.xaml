@@ -47,7 +47,7 @@
     <Shell.FlyoutFooterTemplate>
         <DataTemplate>
             
-                <ImageButton  MaximumHeightRequest="50" HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand" WidthRequest="210" HeightRequest="40" Source="logout.svg" BackgroundColor="MediumPurple" Clicked="ImageButton_Clicked" />
+                <ImageButton  MaximumHeightRequest="50" HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand" WidthRequest="210" HeightRequest="40" Source="logout.svg" BackgroundColor="MediumPurple" Clicked="LogoutImageButton_Clicked" />
             
         </DataTemplate>
     </Shell.FlyoutFooterTemplate>
@@ -73,36 +73,31 @@
         </DataTemplate>
     </Shell.FlyoutContent>
     
-    <ShellContent
-        Icon="blackpp.png"
-        Title="Login"
-        IsVisible="False"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="Profile2" />
+    
 
     <ShellContent
         Icon="blackpp.png"
         Title="Profile"
         ContentTemplate="{DataTemplate local:ProfilePage}"
-        Route="Profile" />
+        Route="ProfilePage" />
 
     <ShellContent
         Icon="staricon.png"
         Title="Favorites"
-        ContentTemplate="{DataTemplate local:RegistrationPage}"
-        Route="TurnMainPage" />
+        ContentTemplate="{DataTemplate local:ProfilePage}"
+        Route="ProiflePage" />
 
     <ShellContent
         Icon="calender.png"
         Title="My Appointments"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage2" />
+        ContentTemplate="{DataTemplate local:MyAppointmentsOnlyDetails}"
+        Route="MyAppointmentsOnlyDetails" />
 
     <ShellContent
         Icon="settings.png"
         Title="Settings"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        ContentTemplate="{DataTemplate local:HomePageParticipant}"
+        Route="HomePageParticipant" />
 
 
 

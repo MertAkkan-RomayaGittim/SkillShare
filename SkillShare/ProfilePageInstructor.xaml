@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SkillSharingAppMobile.ProfilePageInstructor"
+             Title="ProfilePage Instructor">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem
+            IconImageSource="editicon.jpg"
+            Clicked="EditButtonInstructor_Clicked" 
+            Order="Primary"
+            Priority="0" />
+    </ContentPage.ToolbarItems>
+
+
+
+    <ScrollView >
+        <Grid>
+
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Frame CornerRadius="50"  
+               HorizontalOptions="Start" 
+               VerticalOptions="Center"
+               Margin="10"
+               BorderColor="BlueViolet"
+               BackgroundColor="MediumPurple"
+               HeightRequest="100"
+               WidthRequest="100"
+               IsClippedToBounds="True">
+                <ImageButton Source="peterpp.jpg" WidthRequest="100" HeightRequest="100" Aspect="AspectFill" Margin="0" BackgroundColor="LawnGreen" />
+            </Frame>
+
+            <StackLayout Grid.Row="0"  HorizontalOptions="CenterAndExpand" VerticalOptions="Center">
+                <Label Text="{Binding Name}" FontSize="20" HorizontalOptions="Center" Margin="160,-25,0,0" FontFamily="Arial" />
+                <Label Text="Instructor, Professor at MIT" FontSize="14" HorizontalOptions="Center" Margin="150,0,0,0" FontFamily="Arial" />
+            </StackLayout>
+            <StackLayout Grid.Row="8" Orientation="Vertical" HorizontalOptions="FillAndExpand" Margin="0,20,0,0" VerticalOptions="FillAndExpand">
+                <Label FontFamily="Arial" Text="About Me" FontSize="20" HorizontalOptions="Start" Margin="5,0,0,0" VerticalOptions="End"/>
+                <Label  FontFamily="Arial" Text="MIT ye kabak koysan benden daha zeki olur" FontSize="16" HorizontalOptions="Start" Margin="5,0,0,0" VerticalOptions="End" Padding="10" BackgroundColor="MediumPurple"/>
+                <Label FontFamily="Arial"  Text="On-Going Courses/Workshops" FontSize="20" HorizontalOptions="Start" Margin="5,0,0,0" VerticalOptions="End"/>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" VerticalOptions="End">
+                    <ImageButton Source="ma.jpg" WidthRequest="200" HeightRequest="150" Aspect="AspectFill" BackgroundColor="MediumPurple" Clicked="EventImageInstructorClicked" />
+                    <Label FontFamily="Arial" Text="Karate Workshop" FontSize="14" VerticalOptions="Start" Margin="40,10,0,0" />
+                </StackLayout>
+                <Button FontFamily="Arial" Text="Details" Clicked="DetailsButtonInstructor_Clicked" HorizontalOptions="End" VerticalOptions="Start" Margin="0,-40,50,0" />
+
+                <Button FontFamily="Arial"  Text="Skills" FontSize="20" Clicked="SkillsButtonInstructor_Clicked"  MaximumHeightRequest="50" MaximumWidthRequest="50" BackgroundColor="MediumPurple" Margin="5,0,0,0" VerticalOptions="End"/>
+                <StackLayout x:Name="skillsInstructorStackLayout" IsVisible="False">
+                    <Frame CornerRadius="5" BackgroundColor="LightGray" Margin="10" Padding="10">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+                            <Label Grid.Row="0" Text="Photography" FontSize="Title" FontAttributes="Bold" />
+                            <Label Grid.Row="1" Text="Category: Art" FontSize="Subtitle" />
+                            <Label Grid.Row="2" Text="Description: Capturing moments with a camera." FontSize="Body" />
+                        </Grid>
+                    </Frame>
+                </StackLayout>
+
+
+                <Label FontFamily="Arial"  Text="Courses" FontSize="20"  HorizontalOptions="Start"  Margin="5,0,0,0" VerticalOptions="End"/>
+                <ImageButton  Source="booksicon.png" Clicked="CoursesInstructorButton_Clicked"  MaximumHeightRequest="50" MaximumWidthRequest="50" BackgroundColor="MediumPurple" Margin="5,0,0,0" VerticalOptions="End"/>
+                <StackLayout x:Name="coursesInstructorStackLayout" IsVisible="False">
+                    <Frame CornerRadius="5" BackgroundColor="LightGray" Margin="10" Padding="10">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+                            <Label Grid.Row="0" Text="Physics 101" FontSize="Title" FontAttributes="Bold" />
+                            <Label Grid.Row="1" Text="Category: Nuclear Physics" FontSize="Subtitle" />
+                            <Label Grid.Row="2" Text="Description: Learn to make atom bomb." FontSize="Body" />
+                        </Grid>
+                    </Frame>
+                </StackLayout>
+                
+                
+                
+                <Label FontFamily="Arial"  Text="Workshops" FontSize="20" HorizontalOptions="Start" Margin="5,0,0,0" VerticalOptions="End" />
+                <ImageButton Source="wsicon.png" Clicked="WorkshopsInstructorButton_Clicked"  MaximumHeightRequest="50" MaximumWidthRequest="50" BackgroundColor="MediumPurple" Margin="5,0,0,0"  VerticalOptions="End"/>
+                <StackLayout x:Name="workshopsInstructorStackLayout" IsVisible="False">
+                    <Frame CornerRadius="5" BackgroundColor="LightGray" Margin="10" Padding="10">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+                            <Label Grid.Row="0" Text="Manhattan Project" FontSize="Title" FontAttributes="Bold" />
+                            <Label Grid.Row="1" Text="Category: Nuclear Physics" FontSize="Subtitle" />
+                            <Label Grid.Row="2" Text="Description: Workshop to simulate Trinity Test." FontSize="Body" />
+                        </Grid>
+                    </Frame>
+                </StackLayout>
+                
+            </StackLayout>
+        </Grid>
+
+    </ScrollView>
+
+
+</ContentPage>

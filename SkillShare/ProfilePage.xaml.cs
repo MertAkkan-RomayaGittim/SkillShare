@@ -19,28 +19,34 @@ public partial class ProfilePage : ContentPage
        InitializeComponent();
 	}
 
-    private void SkillsButton_Clicked(object sender, EventArgs e)
+    private void SkillsButtonParticipant_Clicked(object sender, EventArgs e)
     {
         skillsStackLayout.IsVisible = !skillsStackLayout.IsVisible;
 
     }
 
-    private void CoursesButton_Clicked(object sender, EventArgs e)
+    private void CoursesButtonParticipant_Clicked(object sender, EventArgs e)
     {
        
     }
 
-    private void WorkshopsButton_Clicked(object sender, EventArgs e)
+    private void WorkshopsButtonParticipant_Clicked(object sender, EventArgs e)
     {
         
     }
-    private void EditButton_Clicked(object sender, EventArgs e)
+    private void EditButtonParticipant_Clicked(object sender, EventArgs e)
     {
         Navigation.PushAsync(new EditProfile());
     }
-    private void DetailsButton_Clicked(object sender, EventArgs e)
+    private void DetailsButtonParticipant_Clicked(object sender, EventArgs e)
     {
 
     }
     
+    private async void EventImageParticipantCliked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new MyAppointmentsOnlyDetails());
+    }
+
+
 }

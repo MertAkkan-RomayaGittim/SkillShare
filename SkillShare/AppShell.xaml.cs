@@ -11,8 +11,12 @@ public partial class AppShell : Shell
 	{
 		Navigation.PushAsync(new MainPage());
 	}
-    private void ImageButton_Clicked(object sender, EventArgs e)
+    private async void LogoutImageButton_Clicked(object sender, EventArgs e)
     {
-        Console.WriteLine("Merhaba");
+		await Navigation.PushAsync(new MainPage());
+
     }
+
+    
+
 }

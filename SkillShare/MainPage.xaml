@@ -60,10 +60,21 @@
             </VerticalStackLayout>
 
 
-            <Label
-                Text="Forgot Password?"
+
+
+            <Button
+                x:Name="ForgotPasswordBtn"
+                CornerRadius="30"
+                Padding="20"
+                Text="Fogot Password ?"
                 TextColor="#429DB3"
-                HorizontalOptions="End" />
+                HorizontalOptions="End"
+                FontSize="15"
+                FontFamily="Arial"
+                Clicked="ForgotPasswordClicked"
+                
+                 />
+
 
             <Button
                 x:Name="LoginBtn"

@@ -92,7 +92,7 @@ public partial class MyAppointmentsPage : ContentPage
 
 
         await DisplayAlert("You will be sent to instructor page", "Redirecting to main page", "OK");
-        await Navigation.PushAsync(new MainPage());
+        await Navigation.PushAsync(new ProfilePageInstructor());
 
 
     }
